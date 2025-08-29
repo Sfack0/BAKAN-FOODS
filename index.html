@@ -1,76 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="src/products.js"></script>
     <script src="src/functions.js"></script>
-    <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/utils.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/homepage.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>BAKAN</title>
-</head>
-<body>
-    <img src="images/background-image.jpg" class="bg-image" alt="">
+  </head>
+  <body>
+    <img src="images/background-image.jpg" class="bg-image" alt="" />
     <nav class="navbar">
-        <img src="images/black_white.png" class="logo" alt="Bakan Logo">
-        <div class="dropdown">
-            <button id="dropdown-button" class="dropdown-button" onclick="showLanguageDropdown()">
-                <img id="current-flag" src="images/greek_flag.jpg" alt="Greek">
-            </button>
-            <div id="dropdown-content" class="dropdown-content"></div>
-        </div>
-        <div class="social-media-links">
-            <a href="https://www.facebook.com/cafebakan/?locale=el_GR" target="_blank">
-                <img src="images/icons/fb_icon.png" alt="Facebook" class="social-icon">
-            </a>
-            <a href="https://www.instagram.com/cafe_bakan/" target="_blank">
-                <img src="images/icons/insta_icon.png" alt="Instagram" class="social-icon">
-            </a>
-            <a href="https://www.e-food.gr/delivery/irakleio-kriti/bakan-cafe" target="_blank">
-                <img src="images/icons/efood_icon.png" alt="Efood" class="social-icon">
-            </a>
-            <a href="https://wolt.com/el/grc/heraklion/restaurant/bakan-cafe-her?srsltid=AfmBOopAoTQcCOreDKPLKXIU7MUjeBN9CYE5-lKYWtfKYeoFYX3hMKdn" target="_blank">
-                <img src="images/icons/wolt_icon.png" alt="Wolt" class="social-icon">
-            </a>
-            
-        </div>
+      <img src="images/black_white.png" class="logo" alt="Bakan Logo" />
+      <div class="dropdown">
+        <button
+          id="dropdown-button"
+          class="dropdown-button"
+          onclick="showLanguageDropdown()"
+        >
+          <img id="current-flag" src="images/greek_flag.jpg" alt="Greek" />
+        </button>
+        <div id="dropdown-content" class="dropdown-content"></div>
+      </div>
+      <div class="social-media-links">
+        <a
+          href="https://www.facebook.com/cafebakan/?locale=el_GR"
+          target="_blank"
+        >
+          <img
+            src="images/icons/fb_icon.png"
+            alt="Facebook"
+            class="social-icon"
+          />
+        </a>
+        <a href="https://www.instagram.com/cafe_bakan/" target="_blank">
+          <img
+            src="images/icons/insta_icon.png"
+            alt="Instagram"
+            class="social-icon"
+          />
+        </a>
+        <a
+          href="https://www.e-food.gr/delivery/irakleio-kriti/bakan-cafe"
+          target="_blank"
+        >
+          <img
+            src="images/icons/efood_icon.png"
+            alt="Efood"
+            class="social-icon"
+          />
+        </a>
+        <a
+          href="https://wolt.com/el/grc/heraklion/restaurant/bakan-cafe-her?srsltid=AfmBOopAoTQcCOreDKPLKXIU7MUjeBN9CYE5-lKYWtfKYeoFYX3hMKdn"
+          target="_blank"
+        >
+          <img
+            src="images/icons/wolt_icon.png"
+            alt="Wolt"
+            class="social-icon"
+          />
+        </a>
+      </div>
     </nav>
-    
+
     <main class="menu">
-            <div class="menu-dropdown" >
-                <div class="menu-banner" onclick="dropMenu(this, 'food')">
-                    <h3 class="menu-title">Food</h3>
+      <div class="menu-dropdown">
+        <div class="menu-banner" onclick="dropMenu(this, 'food')">
+          <h3 class="menu-title">Food</h3>
 
-                    <div class="menu-img-container">
-                        <img src="images/typeImages/Brunch.png" alt="">
-                    </div>
-                    <img class="menu-downarrow" src="images/whitearrow.png" alt="" >
-                </div>
-                <div class="menu"></div>
-            </div>        
-     
-            <div class="menu-dropdown">
-                <div class="menu-banner" onclick="dropMenu(this, 'drinks')">
-                    <h3 class="menu-title">Drinks</h3>
-
-                    <div class="menu-img-container">
-                        <img src="images/drinks.png" alt="">
-                    </div>
-                    <img class="menu-downarrow" src="images/whitearrow.png" alt="" >
-                </div>
-                <div class="menu"></div>
-               
-            </div>
+          <div class="menu-img-container">
+            <img src="images/typeImages/Brunch.png" alt="" />
+          </div>
+          <img class="menu-downarrow" src="images/whitearrow.png" alt="" />
+        </div>
+        <div class="menu"></div>
+      </div>
     </main>
     <footer>
-        <div class="phone"> <span class="phone-n">Τηλέφωνο: 2810 253350 <br> Ωράριο Καταστήματος: 6:00-21:00 <br> Delivery 07:00-20:00</span></div>
+      <div class="phone">
+        <span class="phone-n"
+          >Τηλέφωνο: 2810 253350 <br />
+          Ωράριο Καταστήματος: 6:00-21:00 <br />
+          Delivery 07:00-20:00</span
+        >
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

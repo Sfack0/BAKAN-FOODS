@@ -808,7 +808,7 @@ const menuDataENG = {
       name: "Cold Cuts Omelette",
       type: "Brunch",
       category: "Omelettes",
-      price: "6.00",
+      price: "7.00",
       description:
         "bacon, turkey, Frankfurt sausage, whole wheat bread, mayonnaise, arugula, cherry tomatoes, balsamic",
       type_info: "served until 15:30",
@@ -818,7 +818,7 @@ const menuDataENG = {
       name: "Cheese Omelette",
       type: "Brunch",
       category: "Omelettes",
-      price: "6.00",
+      price: "7.00",
       description:
         "graviera, gouda, edam, manouri cheese, avocado cream, whole wheat bread, arugula, cherry tomatoes, balsamic",
       type_info: "served until 15:30",
@@ -828,7 +828,7 @@ const menuDataENG = {
       name: "Village Omelette",
       type: "Brunch",
       category: "Omelettes",
-      price: "6.50",
+      price: "8.00",
       description:
         "olives, manouri cheese, green pepper, sausage, oregano, whole wheat bread, arugula, cherry tomatoes, balsamic",
       type_info: "served until 15:30",
@@ -838,7 +838,7 @@ const menuDataENG = {
       name: "Breakfast 1",
       type: "Brunch",
       category: "Breakfast",
-      price: "9.00",
+      price: "11.00",
       description:
         "Omelette of choice (cold cuts/cheese), tortilla with turkey, cheese, tomato, philadelphia, lollo lettuce, salad, graviera, pancakes",
       type_info: "served until 15:30",
@@ -847,7 +847,7 @@ const menuDataENG = {
       name: "Breakfast 2",
       type: "Brunch",
       category: "Breakfast",
-      price: "9.00",
+      price: "11.00",
       description:
         "Toast with cheese, turkey, toasted bread, fries, bacon-sausage rolls, cheese-turkey rolls, pancakes",
       type_info: "served until 15:30",
@@ -856,7 +856,7 @@ const menuDataENG = {
       name: "Bakan Breakfast",
       type: "Brunch",
       category: "Breakfast",
-      price: "11.00",
+      price: "13.00",
       description:
         "sausages, fried eggs, bacon, fries, salad, graviera, five pancakes",
       type_info: "served until 15:30",
@@ -865,7 +865,7 @@ const menuDataENG = {
       name: "Go Healthy",
       type: "Brunch",
       category: "Breakfast",
-      price: "9.00",
+      price: "10.00",
       description:
         "whole wheat bread slices with peanut butter, honey, and banana, tortilla with turkey, cheese, Philadelphia, tomato, lollo lettuce",
       type_info: "served until 15:30",
@@ -874,7 +874,7 @@ const menuDataENG = {
       name: "Power Bowl",
       type: "Brunch",
       category: "Breakfast",
-      price: "6.50",
+      price: "8.00",
       description:
         "cream cheese, yogurt, honey, seasonal fruits, oat flakes, superfood mix",
       type_info: "served until 15:30",
@@ -883,7 +883,7 @@ const menuDataENG = {
       name: "Cold Cuts",
       type: "Egg Tower",
       category: "",
-      price: "5.50",
+      price: "6.00",
       description:
         "whole wheat bread slices, cheese, turkey, bacon, avocado cream, fried eggs, salt, pepper, salad with arugula, cherry tomatoes, balsamic",
       type_info: "served until 15:00",
@@ -893,7 +893,7 @@ const menuDataENG = {
       name: "Vegeterian",
       type: "Egg Tower",
       category: "",
-      price: "5.50",
+      price: "6.00",
       description:
         "whole wheat bread slices, avocado cream cheese, fried eggs, salt, pepper, salad with arugula, cherry tomatoes, balsamic",
       type_info: "served until 15:00",
@@ -913,7 +913,7 @@ const menuDataENG = {
       name: "Classic",
       type: "All Day",
       category: "Club Sandwiches",
-      price: "5.50",
+      price: "6.00",
       description:
         "cheese, turkey, bacon, mayonnaise, lollo lettuce, tomato, fries",
     },
@@ -921,7 +921,7 @@ const menuDataENG = {
       name: "Chicken",
       type: "All Day",
       category: "Club Sandwiches",
-      price: "6.00",
+      price: "7.00",
       description:
         "cheese, chicken fillets, bacon, mixed chicken sauce, lollo lettuce, tomato, fries",
     },
@@ -929,7 +929,7 @@ const menuDataENG = {
       name: "Barbeque",
       type: "All Day",
       category: "Burgers",
-      price: "8.50",
+      price: "9.00",
       description:
         "brioche bun, 100% beef patty 200g, bacon, golden BBQ sauce, cheddar, caramelized onions, lollo lettuce, tomato, fries",
     },
@@ -937,7 +937,7 @@ const menuDataENG = {
       name: "Chicken",
       type: "All Day",
       category: "Burgers",
-      price: "7.50",
+      price: "8.00",
       description:
         "brioche bun, breaded chicken fillet, mayonnaise, cheddar, lollo lettuce, tomato, fries",
     },
@@ -945,7 +945,7 @@ const menuDataENG = {
       name: "Special",
       type: "All Day",
       category: "Burgers",
-      price: "9.00",
+      price: "10.00",
       description:
         "brioche bun, 100% beef patty 200g, omelette, bacon, golden BBQ sauce, cheddar, caramelized onions, lollo lettuce, tomato, fries",
     },
@@ -953,14 +953,14 @@ const menuDataENG = {
       name: "Chocolate & Biscuit",
       type: "Waffles",
       category: "Sweet",
-      price: "5.00",
+      price: "6.00",
       type_info: "Ice cream +1.50, banana +1.00",
     },
     {
       name: "Bueno & Oreo Biscuit",
       type: "Waffles",
       category: "Sweet",
-      price: "5.50",
+      price: "6.50",
       type_info: "Ice cream +1.50, banana +1.00",
     },
     {
@@ -996,7 +996,7 @@ const menuDataENG = {
       type: "Waffles",
       category: "Sweet",
       description: "banana, apple, mix nuts, honey, cinnamon",
-      price: "6.00",
+      price: "7.00",
       type_info: "Ice cream +1.50, banana +1.00",
     },
     {
@@ -1004,7 +1004,7 @@ const menuDataENG = {
       type: "Waffles",
       category: "Sweet",
       description: "chocolate praline & bueno",
-      price: "5.50",
+      price: "6.50",
       type_info: "Ice cream +1.50, banana +1.00",
     },
     {
@@ -1012,7 +1012,7 @@ const menuDataENG = {
       type: "Waffles",
       category: "Sweet",
       description: "chocolate",
-      price: "6.00",
+      price: "6.50",
       type_info: "Ice cream +1.50, banana +1.00",
     },
     {
@@ -1020,27 +1020,27 @@ const menuDataENG = {
       type: "Waffles",
       category: "Savory",
       description: "cheese, turkey, bacon, mayonnaise, arugula",
-      price: "5.50",
+      price: "6.50",
     },
     {
       name: "Special",
       type: "Waffles",
       category: "Savory",
       description: "cheese, turkey, bacon, mayonnaise, arugula, fried egg",
-      price: "6.00",
+      price: "7.00",
     },
     {
       name: "Chocolate & Biscuit",
       type: "Pancakes",
       category: "Sweet",
-      price: "5.00",
+      price: "6.00",
       type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
     },
     {
       name: "Bueno & Oreo Biscuit",
       type: "Pancakes",
       category: "Sweet",
-      price: "5.50",
+      price: "6.50",
       type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
     },
     {
@@ -1055,44 +1055,36 @@ const menuDataENG = {
       type: "Pancakes",
       category: "Sweet",
       price: "7.00",
-      type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
+      type_info: "Ice cream +1.50, Banana +1.00",
     },
     {
       name: "Pistachio Praline Aegina & banana",
       type: "Pancakes",
       category: "Sweet",
       price: "7.50",
-      type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
+      type_info: "Ice cream +1.50, Banana +1.00",
     },
     {
       name: "Pistachio Praline Aegina & mix nuts & banana",
       type: "Pancakes",
       category: "Sweet",
       price: "7.90",
-      type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
+      type_info: "Ice cream +1.50, Banana +1.00",
     },
     {
       name: "Fruits & Honey",
       type: "Pancakes",
       category: "Sweet",
       description: "banana, apple, mix nuts, honey, cinnamon",
-      price: "6.00",
-      type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
+      price: "7.00",
+      type_info: "Ice cream +1.50, Banana +1.00",
     },
     {
       name: "Mixed",
       type: "Pancakes",
       category: "Sweet",
       description: "chocolate praline & bueno",
-      price: "5.50",
-      type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
-    },
-    {
-      name: "Peanut Butter",
-      type: "Pancakes",
-      category: "Sweet",
-      description: "strawberry jam",
-      price: "6.00",
+      price: "6.50",
       type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
     },
     {
@@ -1100,7 +1092,7 @@ const menuDataENG = {
       type: "Pancakes",
       category: "Sweet",
       description: "chocolate",
-      price: "6.00",
+      price: "6.50",
       type_info: "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00",
     },
     {
@@ -1108,14 +1100,14 @@ const menuDataENG = {
       type: "Pancakes",
       category: "Savory",
       description: "cheese, turkey, bacon, mayonnaise, rocket",
-      price: "5.50",
+      price: "6.50",
     },
     {
       name: "Special",
       type: "Pancakes",
       category: "Savory",
       description: "cheese, turkey, bacon, mayonnaise, rocket, fried egg",
-      price: "6.00",
+      price: "7.00",
     },
     ,
     {
@@ -1155,14 +1147,14 @@ const menuDataENG = {
       type: "Single Plates",
       category: " ",
       description: "breaded chicken bites, French fries, French sauce",
-      price: "6.50",
+      price: "7.50",
     },
     {
       name: "Cheddar Fries",
       type: "Single Plates",
       category: " ",
       description: "French fries with cheddar sauce & bacon",
-      price: "3.80",
+      price: "4.20",
     },
     {
       name: "Hot Dog",
@@ -1178,7 +1170,7 @@ const menuDataENG = {
       category: " ",
       description:
         "soft bun, French fries, cheese, turkey shoulder, sausage, bacon, French sauce & mayonnaise",
-      price: "7.00",
+      price: "8.00",
     },
     {
       name: "Ceasar's Salad",
@@ -1186,7 +1178,7 @@ const menuDataENG = {
       category: " ",
       description:
         "lollo, chicken fillets, cherry tomatoes, croutons, graviera cheese, Ceasar's sauce",
-      price: "6.00",
+      price: "7.50",
     },
     {
       name: "BAKAN Salad",
@@ -1194,7 +1186,7 @@ const menuDataENG = {
       category: " ",
       description:
         "lollo, rocket, cherry tomatoes, super mix nuts, apple, graviera cheese, cucumber, croutons, balsamic",
-      price: "6.50",
+      price: "8.00",
     },
     {
       name: "Cheese/Cold Cuts Platter",
@@ -1202,7 +1194,7 @@ const menuDataENG = {
       category: " ",
       description:
         "bacon, Frankfurt sausage, shoulder, turkey, graviera cheese, edam cheese, breadsticks",
-      price: "6.50",
+      price: "8.00",
     },
   ],
 };

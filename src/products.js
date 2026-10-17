@@ -31,7 +31,7 @@ const menuDataGR = {
       category_info: "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες",
     },
     {
-      name: "Πρωινό 1",
+      name: "Πρωινό Ομελέτα",
       type: "Brunch",
       category: "Πρωινό",
       price: "11.00",
@@ -40,7 +40,7 @@ const menuDataGR = {
       type_info: "σερβίρεται εώς τις 15:30",
     },
     {
-      name: "Πρωινό 2",
+      name: "Πρωινό Τοστ",
       type: "Brunch",
       category: "Πρωινό",
       price: "11.00",
@@ -835,7 +835,7 @@ const menuDataENG = {
       category_info: "all omelettes are served with fries",
     },
     {
-      name: "Breakfast 1",
+      name: "Omelette Breakfast",
       type: "Brunch",
       category: "Breakfast",
       price: "11.00",
@@ -844,7 +844,7 @@ const menuDataENG = {
       type_info: "served until 15:30",
     },
     {
-      name: "Breakfast 2",
+      name: "Toast Breakfast",
       type: "Brunch",
       category: "Breakfast",
       price: "11.00",
